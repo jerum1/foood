@@ -1,0 +1,55 @@
+body {
+background-image: url(pizza-burger.webp);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+
+}
+.menu{
+  background-color: orange;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+  padding: 20px;
+}
+h1, h2, p{
+  text-align: center;
+}
+ h1{
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+ }
+ h2{
+  font-size: 30px;
+ }
+.price{
+  text-align: right;
+  width: 25%
+}
+.item p{
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px
+}
+.food,.drinks{
+  text-align: left;
+  width: 74%;
+}
+h1,h2{
+  font-family: Impact,sans-serif;
+}
+hr{
+  height: 2px;
+  border-color: red;
+  background-color: red;
+}
+.est{
+  font-style: italic;
+}
+.visit-hover{
+  color: brown;
+
+}
