@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale 1.0">
+  
+  <title>Food Menu</title>
+
+
+  <div class="menu">
+    <h1>Food and Drinks</h1>
+    <p class="est">Est.2023</p>
+    <h2>Burger</h2>
+    <hr>
+    <article class="item">
+      <p class="food">Cheeseburger</p>
+      <p class="price">45.00</p>
+    </article>
+
+    <article class="item">
+      <p class="food">Double Cheeseburger</p>
+      <p class="price">65.00</p>
+    </article>
+
+    <article class="item">
+      <p class="food">Regular</p>
+      <p class="price">35.00</p>
+    </article>
+
+    <article class="item">
+      <p class="food">Chicken Burger</p>
+      <p class="price">55.00</p>
+    </article>
+
+    <h2>Pizza</h2>
+    <hr>
+    <article class="item">
+      <p class="food">Regular</p>
+      <p class="price">100.00</p>
+    </article>
+
+    <article class="item">
+      <p class="food">Cheese Pizza</p>
+      <p class="price">140.00</p>
+    </article>
+    <article class="item">
+      <p class="food">Pepperoni</p>
+      <p class="price">155.00</p>
+    </article>
+
+    <article class="item">
+      <p class="food">Hawaiian Pizza</p>
+      <p class="price">180.00</p>
+    </article>
+
+    <h2>Drinks</h2>
+    <hr>
+    <article class="item">
+      <p class="drinks">Cola</p>
+      <p class="price">35.00</p>
+    </article>
+
+    <article class="item">
+      <p class="drinks">Lemonade</p>
+      <p class="price">45.00</p>
+    </article>
+    <article class="item">
+      <p class="drinks">Sparkling Water</p>
+      <p class="price">Free</p>
+    </article>
+
+    <article class="item">
+      <p class="drinks">Iced-Tea</p>
+      <p class="price">55.00</p>
+    </article>
+    <footer>
+      <p class="visit">Visit Us</p>
+      <p class="st">San Pedro Street,. Heaven Avenue</p>
+    </footer>
+  </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<link rel="stylesheet" href="./Food Menu_files/styles.css"></body></html>
