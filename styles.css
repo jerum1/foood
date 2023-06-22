@@ -3,6 +3,10 @@ background-image: url(pizza-burger.webp);
 background-repeat: no-repeat;
 background-size: cover;
 padding: 20px;
+max-width: 768px;
+  max-height: 1024px;
+  margin: auto;
+  display: block;
 
 }
 .menu{
